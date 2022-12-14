@@ -12,4 +12,12 @@ const createUser = async (user: TUser): Promise<TUser> => {
   return { id: insertId, ...userWithdoutPassword };
 };
 
-export default { createUser };
+const getUserByName = async (user: TUser): Promise<TUser> => {
+  const [[result]] = await connection.execute<ResultSetHeader & TUser[]>(
+    'SELECT * FROM Trybesmith.users WHERE username = ?;',
+    [user.username],
+  );
+  return result;
+};
+
+export default { createUser, getUserByName };
