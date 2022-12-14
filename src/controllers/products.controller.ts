@@ -6,4 +6,9 @@ const singUpProduct = async (req: Request, res: Response) => {
   return res.status(201).json(message);
 };
 
-export default { singUpProduct };
+const getAllProducts = async (_req: Request, res: Response) => {
+  const result = await userService.getAllProducts();
+  return res.status(200).json(result);
+};
+
+export default { singUpProduct, getAllProducts };
