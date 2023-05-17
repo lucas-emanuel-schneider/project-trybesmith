@@ -1,4 +1,3 @@
-# :construction: README customizado em construção ! :construction:
 <!-- Olá, Tryber!
 Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
 
@@ -14,7 +13,7 @@ Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua cr
 # Boas vindas ao repositório do projeto Trybesmith!
 
 <details>
-  <summary><strong>👨‍💻 O que deverá ser desenvolvido</strong></summary><br />
+  <summary><strong>👨‍💻 O que foi desenvolvido</strong></summary><br />
 
   Uma loja de itens medievais, no formato de uma _API_, utilizando _Typescript_.
   
