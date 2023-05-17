@@ -20,7 +20,7 @@ Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua cr
   Desenvolver todas as camadas da aplicação (_Models_, _Service_ e _Controllers_) e, por meio dessa aplicação, será possível realizar as operações básicas que se pode fazer em um determinado banco de dados:
   Criação, Leitura, Atualização e Exclusão (ou `CRUD`, para as pessoas mais íntimas 😜 - _Create, Read, Update_ e _Delete_).
 
-  Você irá criar alguns _endpoints_ que irão ler e escrever em um banco de dados, utilizando o **MySQL**.
+  Alguns _endpoints_ que irão ler e escrever em um banco de dados, utilizando o **MySQL**.
 
   ---
 
@@ -35,7 +35,6 @@ Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua cr
   <summary><strong>🐳 Rodando no Docker</strong></summary><br />
 
   ## Com Docker
-
 
   > Rode os serviços `node` e `db` com o comando `docker-compose up -d`.
   - Lembre-se de parar o `mysql` se estiver usando localmente na porta padrão (`3306`), ou adapte, caso queria fazer uso da aplicação em containers
